@@ -1,0 +1,140 @@
+
+
+
+
+
+#title{
+    background-color:#ff4c68;
+}
+
+h1{
+ font-family: "Montserrat-blod 700";
+ font-size: 3.5rem;
+ line-height: 1.5;
+ color: white;
+}
+
+.container-fluid{
+         padding: 3% 15% 7%;
+}
+
+body{
+    font-family: "montserrat";
+}
+/*navigation bar*/
+.navbar{
+         padding-bottom:4.5rem ;
+}
+
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+ 
+.nav-link{
+        font-size: 1.2rem;
+        font-family: "montserrat-light";
+}
+.title-image{
+    width: 50%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+.dowload-button{
+    margin:5% 3% 5% 0;
+}
+
+.fas{
+    color:  #ef8172;
+}
+.fas:hover{
+    color: #ff4c68;
+}
+#features{
+      padding: 7% 10%;
+      background-color: #fff;
+      z-index: 1;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 4.5%;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center ;
+    background-color: #ef8172;
+    color: beige;
+}
+h2{
+    font-family: "montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.img-dog{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+    right: 30%;
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align:center ;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+@media  (max-width: 1020px){
+    #title{
+        text-align: center;
+    }
+.title-image{
+      position: static;
+      transform: rotate(0);
+}
+}
+#cta{
+    background-color:#ff4c68;
+    color: antiquewhite;
+    text-align: center;
+    font-family: italic;
+    padding: 7% 15%;
+
+}
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.fab{
+    padding-right: 3%;
+}
+
+.btn1{
+    padding-right: 2% ;
+}
+.ctahead{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+    line-height:1.5 ;
+}
